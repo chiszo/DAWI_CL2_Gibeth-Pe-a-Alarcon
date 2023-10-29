@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <title>App-cibertec</title>
     <link rel="stylesheet" th:href="@{/styles/bootstrap/bootstrap.css}">
-    <link rel="stylesheet" th:href="@{/styles/font/bootstrap-icons.css}">
-    <script type="text/javascript" th:src="@{/script/jquery/jquery.js}"></script>
     <script type="text/javascript" th:src="@{/script/bootstrap/bootstrap.bundle.js}"></script>
 </head>
 <body>
@@ -22,18 +20,10 @@
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Modulo de almacen
+                        Articulos
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" th:href="@{/administracion/estado/frmestado}">Estado</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" th:href="@{/almacen/kardex/listar}">Kardex</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" th:href="@{/almacen/guiaremi/listar}">Guias de remision</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" th:href="@{/almacen/compras/listar}">Registro de compras</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" th:href="@{/almacen/reporte/listar}">Reportes</a></li>
+                        <li><a class="dropdown-item" th:href="@{/articulo/producto/frmproducto}">Producto</a></li>
                     </ul>
                 </li>
             </ul>
